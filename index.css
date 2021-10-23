@@ -1,0 +1,184 @@
+.div1 {
+	background-color:#2d3092;
+	width:221px;
+	height:50px;
+	margin-top:-8px;
+	margin-left:-8px;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+.div2 {
+	float:right;
+	border:1px solid #e6e6e6;
+	position:absolute;
+	left:58mm;
+	height:50px;
+	width:84%;
+}
+.div3 {
+	width:219px;
+	height:100px;
+	margin-right:2px;
+	margin-left: -8px;
+	background-color:#f4f4f4;
+	display:flex;
+	align-items:center;
+}
+.div4 {
+	position: relative;
+    display: flex;
+    float: left;
+    margin-left: 34px;
+    width: 31cm;
+	height: 98px;
+    left: 178px;
+    bottom: 100px;
+}
+.div5 {
+	
+	width:265px;
+	height:60px;
+	border-radius:30px;
+	background-color:#f4f4f4;
+	position:relative;
+	left:26cm;
+	bottom:78px;
+}
+.div6 {
+	background-color:#2d3092;
+	height:59px;
+	width:58px;
+	position:relative;
+	left:1188px;
+	bottom:138px;
+	border-radius:50%;
+}
+.div7 {
+	width:1354px;
+	height:840px;
+	position:relative;
+	bottom:119px;
+	background-color:#bedfea;
+	margin-left:-10px;
+	
+}
+
+.need {
+	position:relative;
+	left:12px;
+	color:#96989c;
+	font-family: "Josefin Sans",sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+
+}
+
+.number{
+	position: absolute;
+    left: 220px;
+    bottom: 1px;
+	font-family: "Josefin Sans",sans-serif;
+	font-size: 15px;
+	color:#96989c;
+	font-weight: 500;
+}
+
+.log {
+	position: relative;
+    left: 229mm;
+    bottom: 17mm;
+    color: #96989c;
+	font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+}
+.reg {
+	position: relative;
+    left: 255mm;
+    bottom: 35mm;
+    color: #96989c;
+	font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+#user {
+	position: relative;
+    left: 223mm;
+    bottom: 31px;
+    color: blue;
+}
+#lock {
+	color:blue;
+    position: relative;
+    left: 249mm;
+    bottom: 96px;
+	font-size:19px;
+}
+#search {
+	border:1px solid #f4f4f4 ;
+	position:relative;
+	bottom:78px;
+	left:16px;
+	background-color: #f4f4f4;
+	outline:none;
+}
+#sear {
+	color:white;
+	position:relative;
+	left:22px;
+    bottom:16px;
+}
+
+
+
+
+
+
+
+.div1 > i {
+	color:white;
+	font-size:15px;
+	padding:17px 28px 17px 30px;
+	margin-left:-30px;
+	transition: transform .7s ease-in-out;
+	
+}
+.div1 > i:hover {
+	transform: rotate(180deg);
+}
+.div3 > img {
+	padding-left:26px;
+}
+.div4 > a {
+	display:flex;
+	position:relative;
+	left:-26px;
+	font-size:16px;
+	align-items:center;
+	padding:0 0 0 42px;
+	color: #091a23;
+    font-weight: 700;
+    font-family: "Josefin Sans",sans-serif;
+	text-decoration:none;
+	transition:color 1s ;
+	transition:font .5s ;
+	
+}
+.div4 > a:hover {
+          color:blue;
+		  font-size:18px;
+}
+.div7 > img {
+	position:relative;
+	top:500px;
+	left:650px;
+	width:250px;
+	height:200px;
+	z-index:1;
+}
